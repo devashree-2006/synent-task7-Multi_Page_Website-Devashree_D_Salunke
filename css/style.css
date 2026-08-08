@@ -99,6 +99,13 @@ nav a.active {
     background: transparent;
     font-size: 26px;
     cursor: pointer;
+    color: var(--dark);
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.menu-toggle:hover {
+    transform: scale(1.1);
 }
 
 

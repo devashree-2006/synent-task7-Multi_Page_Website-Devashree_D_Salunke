@@ -119,3 +119,13 @@ faqQuestions.forEach(question => {
     });
 
 });
+// Close mobile menu after selecting a page
+const navLinks = document.querySelectorAll("#navMenu a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        if (navMenu) {
+            navMenu.classList.remove("show");
+        }
+    });
+});
