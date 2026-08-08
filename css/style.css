@@ -814,6 +814,12 @@ h2 em {
     border: none;
     cursor: pointer;
     width: 100%;
+    font-family: inherit;
+    transition: 0.3s ease;
+}
+
+.form-btn:active {
+    transform: scale(0.98);
 }
 
 #formMessage {
@@ -1080,4 +1086,14 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+/* Contact form character counter */
+
+.character-count {
+    text-align: right;
+    margin-top: 5px;
+    font-size: 11px;
+    color: var(--muted);
 }

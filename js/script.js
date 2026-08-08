@@ -73,12 +73,50 @@ if (contactForm) {
 
         event.preventDefault();
 
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        if (name.length < 2) {
+
+            formMessage.textContent =
+                "Please enter a valid name.";
+
+            formMessage.style.color = "#b04a3a";
+
+            return;
+        }
+
+        if (!email.includes("@")) {
+
+            formMessage.textContent =
+                "Please enter a valid email address.";
+
+            formMessage.style.color = "#b04a3a";
+
+            return;
+        }
+
+        if (message.length < 10) {
+
+            formMessage.textContent =
+                "Please write a little more about your message.";
+
+            formMessage.style.color = "#b04a3a";
+
+            return;
+        }
+
         formMessage.textContent =
             "✓ Thanks! Your message has been received.";
 
         formMessage.style.color = "#556b4f";
 
         contactForm.reset();
+
+        if (charCount) {
+            charCount.textContent = "0";
+        }
 
     });
 
@@ -129,3 +167,19 @@ navLinks.forEach(link => {
         }
     });
 });
+/* =========================
+   MESSAGE CHARACTER COUNTER
+========================= */
+
+const messageInput = document.getElementById("message");
+const charCount = document.getElementById("charCount");
+
+if (messageInput && charCount) {
+
+    messageInput.addEventListener("input", () => {
+
+        charCount.textContent = messageInput.value.length;
+
+    });
+
+}
