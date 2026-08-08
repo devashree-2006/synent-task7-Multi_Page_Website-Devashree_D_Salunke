@@ -1097,3 +1097,119 @@ footer {
     font-size: 11px;
     color: var(--muted);
 }
+
+
+/* =========================
+   FINAL UI & MOBILE POLISH
+========================= */
+
+.logo {
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateY(-2px);
+}
+
+.footer-links a {
+    transition: 0.3s ease;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+img {
+    transition: transform 0.5s ease;
+}
+
+.image-card:hover img,
+.guide-image:hover img,
+.about-image:hover img {
+    transform: scale(1.03);
+}
+
+
+/* Better mobile spacing */
+
+@media (max-width: 650px) {
+    .navbar {
+        height: 72px;
+    }
+    nav {
+        top: 72px;
+    }
+    .hero {
+        min-height: auto;
+        padding-top: 55px;
+        padding-bottom: 70px;
+    }
+    .hero-content p {
+        font-size: 15px;
+    }
+    .hero-image {
+        margin-top: 15px;
+    }
+    .image-card {
+        height: 380px;
+    }
+    .floating-card {
+        left: 15px;
+        bottom: 15px;
+        padding: 12px 15px;
+    }
+    .section-heading {
+        margin-bottom: 45px;
+    }
+    .section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .guide-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .guide-image {
+        height: 380px;
+    }
+    .about-story {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .about-image {
+        height: 380px;
+    }
+    .page-hero {
+        padding-top: 75px;
+        padding-bottom: 55px;
+    }
+    .page-hero h1 {
+        font-size: 48px;
+    }
+    .services-grid-section {
+        padding-top: 20px;
+        padding-bottom: 90px;
+    }
+    .service-card {
+        min-height: auto;
+        padding: 30px;
+    }
+    .service-card h2 {
+        margin-top: 35px;
+    }
+    .contact-section {
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+    .contact-form-wrapper {
+        padding: 22px;
+    }
+    .faq-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .cta {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
