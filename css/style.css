@@ -553,6 +553,14 @@ h2 em {
     padding: 40px;
     border: 1px solid #d1d0c7;
     border-radius: 20px;
+    transition: 0.3s ease;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.value-card:hover {
+    transform: translateY(-8px);
+    background: white;
+    box-shadow: 0 15px 35px rgba(32, 37, 31, 0.08);
 }
 
 .value-card>span {
@@ -617,6 +625,8 @@ h2 em {
 
 .service-card {
     padding: 45px;
+    position: relative;
+    overflow: hidden;
     border: 1px solid var(--border);
     border-radius: 25px;
     min-height: 350px;
@@ -625,6 +635,7 @@ h2 em {
 
 .service-card:hover {
     background: var(--dark);
+    box-shadow: 0 20px 45px rgba(32, 37, 31, 0.12);
     color: white;
     transform: translateY(-8px);
 }
@@ -1027,5 +1038,46 @@ footer {
     .footer-bottom {
         flex-direction: column;
         gap: 8px;
+    }
+}
+
+
+/* Scroll reveal animation */
+
+.feature-card,
+.value-card,
+.service-card,
+.process-item,
+.timeline-item {
+    animation: revealCard 0.7s ease both;
+}
+
+.feature-card:nth-child(2),
+.value-card:nth-child(2),
+.service-card:nth-child(2),
+.process-item:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.feature-card:nth-child(3),
+.value-card:nth-child(3),
+.service-card:nth-child(3),
+.process-item:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.feature-card:nth-child(4),
+.service-card:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes revealCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
