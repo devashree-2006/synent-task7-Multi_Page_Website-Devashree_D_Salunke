@@ -1,0 +1,123 @@
+Report for TASK 7 – MULTI-PAGE WEBSITE
+
+1. INTRODUCTION
+
+As part of Task 7 of my Web Development Internship at Synent Technologies, I developed a complete multi-page website called ReWear.
+ReWear is a sustainable fashion website based on the idea of giving clothes another life through reuse, exchange, donation, and upcycling.
+The main objective of this task was to build a professional multi-page website with responsive design, navigation between pages, and a consistent user interface.
+
+2. OBJECTIVE
+
+The main objectives of this project were:
+• To develop a complete multi-page website.
+• To create a responsive design for different screen sizes.
+• To implement navigation between multiple webpages.
+• To maintain a consistent UI across all pages.
+• To use HTML, CSS, and JavaScript effectively.
+• To create a professional and user-friendly website structure.
+• To manage the project using Git and GitHub.
+• To maintain a public repository with meaningful commits.
+
+3. PROJECT CONCEPT – REWEAR
+
+ReWear is a sustainable fashion concept that encourages people to rethink how they use their clothes.
+Instead of throwing away clothes that are no longer needed, ReWear promotes reusing, exchanging, donating, and upcycling them.
+The website uses a clean and modern design to communicate the concept of sustainable fashion while keeping the interface simple and easy to navigate.
+
+4. TECHNOLOGIES USED
+
+HTML:
+HTML was used to create the structure and content of the different webpages.
+CSS:
+CSS was used for layouts, colors, typography, buttons, responsive design, hover effects, animations, spacing, and positioning.
+JavaScript:
+JavaScript was used to add interactive features such as responsive navigation, FAQ interactions, contact form validation, and other UI functionality.
+Git:
+Git was used to track changes and maintain the development history of the project.
+GitHub:
+GitHub was used to store and publish the project in a public repository.
+
+5. WEBSITE PAGES
+
+5.1 HOME PAGE
+The Home page introduces the ReWear concept and provides an overview of sustainable clothing practices.
+It contains a navigation bar, hero section, call-to-action buttons, information about ReWear, a sustainable fashion guide, and a footer.
+The page is designed to immediately communicate the purpose of the website to visitors.
+
+5.2 ABOUT PAGE
+The About page explains the concept and purpose of ReWear.
+It provides information about the idea behind the platform and focuses on encouraging sustainable clothing habits.
+The page also contains sections describing the values of ReWear and its approach toward reducing clothing waste.
+
+5.3 SERVICES PAGE
+The Services page presents the main services offered by the ReWear concept.
+The services include:
+• Clothing Exchange – Encourages users to exchange clothes they no longer need instead of throwing them away.
+• Clothing Donation – Encourages users to donate usable clothes so they can be given to someone who needs them.
+• Upcycling – Promotes transforming old or unused clothes into something useful or new.
+
+5.4 CONTACT PAGE
+The Contact page allows users to interact with the website.
+It includes a contact form with fields for name, email, and message. JavaScript is used to validate the form and provide feedback to the user.
+The page also contains a character counter and a Frequently Asked Questions section.
+
+6. KEY FEATURES
+
+The major features implemented in the website are:
+• Responsive Design – The website adapts to desktops, tablets, and mobile devices.
+• Multi-Page Navigation – Users can navigate between Home, About, Services, and Contact pages.
+• Consistent UI – The same design style, typography, colors, buttons, spacing, and visual elements are maintained throughout the website.
+• Responsive Navigation – A mobile navigation menu is provided for smaller screens.
+• Contact Form Validation – The contact form checks user input and provides appropriate feedback.
+• Character Counter – The message field displays the number of characters entered.
+• FAQ Interaction – The FAQ section provides an interactive way for users to view answers.
+• Hover Effects and Animations – Subtle effects and animations improve the visual experience.
+
+7. RESPONSIVE DESIGN
+
+Responsive design was an important part of this project.
+CSS media queries were used to adapt the website to different screen sizes.
+The website was tested on smaller screens to ensure that the navigation, text, images, buttons, cards, forms, and other content remained properly aligned and usable.
+This ensures that users can access the ReWear website comfortably from different devices.
+
+8. GIT AND GITHUB
+
+Git and GitHub were used to manage the development of the project.
+The project was developed through five meaningful commits:
+Initial project structure and homepage
+Improved responsive navigation
+Enhanced About and Services sections
+Added Contact form validation and interactions
+Final responsive design and UI improvements
+The project was uploaded to a public GitHub repository as required.
+Screenshots and the project report were also added to the repository for documentation.
+
+9. CHALLENGES FACED
+
+While developing the website, I faced challenges related to responsive layouts, navigation, styling, and JavaScript functionality.
+Making the same design work properly on both desktop and mobile screens required several adjustments.
+I also had to test the contact form and interactive elements to make sure they worked correctly.
+Another challenge was managing the project using Git and GitHub. Through this task, I became more comfortable with creating commits, maintaining project history, and pushing the project to a public repository.
+
+10. LEARNING OUTCOMES
+
+Through this project, I improved my knowledge of:
+• Multi-page website development
+• HTML structure
+• CSS styling
+• Responsive web design
+• JavaScript interactions
+• Form validation
+• DOM manipulation
+• UI consistency
+• Git and GitHub
+• Project organization
+• Testing and debugging
+The project helped me understand how different frontend technologies work together to create a complete website.
+
+11. CONCLUSION
+
+Task 7 gave me the opportunity to build a complete multi-page website from the ground up.
+The ReWear project allowed me to combine HTML, CSS, and JavaScript while focusing on responsive design, navigation, consistency, and user interaction.
+The project also helped me gain practical experience with Git and GitHub and understand the importance of organizing and documenting a project properly.
+Overall, this task improved my confidence in frontend development and gave me practical experience in creating a professional, responsive, and user-friendly website.
